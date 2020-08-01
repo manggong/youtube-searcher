@@ -5,8 +5,6 @@ import YTSearch from 'youtube-api-search';
 
 import SearchBar from './components/search_bar';
 
-console.log(API_KEY);
-
 YTSearch({ key: API_KEY, term: 'surfboards' }, function(data) {
   console.log(data);
 });
